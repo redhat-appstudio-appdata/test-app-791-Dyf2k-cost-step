@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-both-tag-digest-m6om
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-791/e2e-tests-parent-image-with-both-tag-digest-m6om@sha256:2df19b29a4d7d58e8f5ea3eb1d54e76625deea1eeaa3520b976710509332179b
         imagePullPolicy: Always
         name: container-image
         ports:
