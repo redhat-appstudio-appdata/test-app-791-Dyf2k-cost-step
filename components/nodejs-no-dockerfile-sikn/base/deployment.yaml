@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-sikn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-791/nodejs-no-dockerfile-sikn@sha256:147b008a84db9ba326af1da81eb8a0be011ad2bd8ff39b399bac3aaaa41614b4
         name: my-nodejs
         ports:
         - containerPort: 3001
