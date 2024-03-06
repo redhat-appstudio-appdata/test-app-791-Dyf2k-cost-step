@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-sfae
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-791/pip-e2e-test-sfae@sha256:fdcda09b35139ac308c30310e17ecd8a14a7c445c2efe204026449a3a7f0549d
         name: pip-e2e-test
         ports:
         - containerPort: 8081
