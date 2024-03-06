@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-fpsx
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-791/maven-hello-world-fpsx@sha256:18fc413926b6dd5066c748972487c1b4e5dd3c85c00d51caeb116555bbb6a545
         name: my-java-quarkus
         ports:
         - containerPort: 8081
